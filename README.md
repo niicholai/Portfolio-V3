@@ -1,2 +1,2 @@
 # portfolio
-A growinf portfolio website
+A growing portfolio website.
