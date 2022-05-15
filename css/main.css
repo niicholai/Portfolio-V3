@@ -1,143 +1,72 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+body {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
-#header-wrapper {
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#first-scene-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 8em;
 }
 
-#header-image {
+#first-scene-image {
   border: 0em;
   border-radius: 50%;
   max-width: 25em;
   max-height: 25em;
   margin-top: 3em;
+}
+
+#about-me-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 4em 0 0 0;
+}
+
+.what-i-do {
+  border: 0.2em;
+  border-style: dashed;
+  border-color: #5bc0de;
+  border-radius: 1.5em;
+  width: 30em;
+}
+
+.who-i-am {
+  border: 0.2em;
+  border-style: dashed;
+  border-color: #5bc0de;
+  border-radius: 1.5em;
+  width: 30em;
+}
+
+.what-i-know {
+  border: 0.2em;
+  border-style: dashed;
+  border-color: #5bc0de;
+  border-radius: 1.5em;
+  width: 30em;
+}
+.about-me-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #5bc0de;
+  text-shadow: 1px 1px #000000;
+  padding-top: 1em;
+}
+
+.no-bullets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1em 0 2em;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  list-style-type: circle;
 }
