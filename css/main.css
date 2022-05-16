@@ -26,7 +26,7 @@ body {
 #about-me-wrapper {
   display: flex;
   justify-content: space-around;
-  margin: 4em 0 0 0;
+  margin: 4em 0 10em 0;
 }
 
 #second-scene-wrapper {
@@ -40,6 +40,26 @@ body {
 
 #ss-top-h1 {
   padding-bottom: 1.4em;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em 0 0 0;
+}
+
+#cm-h1 {
+  padding: 0 0 1em 0;
+}
+
+#cm-buttons {
+  display: flex;
+  padding: 0 0 4em 0;
+}
+
+#cm-email-form {
+  padding: 0 0 6em 0;
 }
 
 .what-i-do {
