@@ -8,14 +8,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-#first-scene-wrapper {
+#fs-top-half-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 8em;
 }
 
-#first-scene-image {
+#fs-top-half-image {
   border: 0em;
   border-radius: 50%;
   max-width: 25em;
@@ -27,6 +27,19 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 4em 0 0 0;
+}
+
+#second-scene-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5bc0de;
+  margin-top: 4em;
+  padding: 4em 0 4em 0;
+}
+
+#ss-top-h1 {
+  padding-bottom: 1.4em;
 }
 
 .what-i-do {

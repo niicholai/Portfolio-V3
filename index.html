@@ -62,45 +62,153 @@
 
     <main>
       <section id="first-scene-wrapper">
-        <img
-          id="first-scene-image"
-          src="images/derek-folds-1.jpg"
-          alt="Derek Folds Image"
-        />
-        <br />
-        <h1 id="first-scene-h1">I'm Derek!</h1>
-        <h3 id="first-scene-h3">
-          <i>Hello</i> | <i>Asalaam alaikum</i> | <i>Nǐn hǎo</i> |
-          <i>Namastē</i> | <i>Zdravstvuyte</i>
-        </h3>
+        <section id="fs-top-half-wrapper">
+          <img
+            id="fs-top-half-image"
+            src="images/derek-folds-1.jpg"
+            alt="Derek Folds Image"
+          />
+          <br />
+          <h1 id="fs-top-half-h1">I'm Derek!</h1>
+          <h3 id="fs-top-half-h3">
+            <i>Hello</i> | <i>Asalaam alaikum</i> | <i>Nǐn hǎo</i> |
+            <i>Namastē</i> | <i>Zdravstvuyte</i>
+          </h3>
+        </section>
+
+        <section id="about-me-wrapper">
+          <div class="what-i-do">
+            <span class="about-me-heading">What I do:</span>
+            <ul class="no-bullets">
+              <li>Front-end Developer</li>
+              <li>Full time student at Purdue Univeristy Global</li>
+              <li>Full-stack in learning</li>
+            </ul>
+          </div>
+
+          <div class="who-i-am">
+            <span class="about-me-heading">Who I am:</span>
+            <ul class="no-bullets">
+              <li>He/Him</li>
+              <li>Thirty two years young</li>
+              <li>Pansexual</li>
+            </ul>
+          </div>
+
+          <div class="what-i-know">
+            <span class="about-me-heading">What I know:</span>
+            <ul class="no-bullets">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+        </section>
       </section>
 
-      <section id="about-me-wrapper">
-        <div class="what-i-do">
-          <span class="about-me-heading">What I do:</span>
-          <ul class="no-bullets">
-            <li>Front-end Developer</li>
-            <li>Full time student at Purdue Univeristy Global</li>
-            <li>Full-stack in learning</li>
-          </ul>
-        </div>
-
-        <div class="who-i-am">
-          <span class="about-me-heading">Who I am:</span>
-          <ul class="no-bullets">
-            <li>He/Him</li>
-            <li>Thirty two years young</li>
-            <li>Pansexual</li>
-          </ul>
-        </div>
-
-        <div class="what-i-know">
-          <span class="about-me-heading">What I know:</span>
-          <ul class="no-bullets">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-          </ul>
+      <section id="second-scene-wrapper">
+        <h1 id="ss-top-h1">These are some of my projects.</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4 w-50">
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/custom-404-project-preview.PNG"
+                class="card-img-top"
+                alt="custom 404 page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Custom 404 Project</h5>
+                <p class="card-text">
+                  This was a custom 404 project I did for DevChallenges.io. A
+                  fun experience and my first time putting in effort to make the
+                  page responsive at all sizes.
+                </p>
+                <a href="https://github.com/niicholai/Custom-404-Project"
+                  ><button type="button" class="btn btn-info">GitHub</button></a
+                >
+                <a href="https://custom-404-project.onrender.com/"
+                  ><button type="button" class="btn btn-info">
+                    Live Demo
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/price-table-preview.PNG"
+                class="card-img-top"
+                alt="price table"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pricing Table</h5>
+                <p class="card-text">
+                  Here I decided to create a pricing table. It was a great
+                  experience in working with flexbox in CSS3, which has assisted
+                  me with my more current projects.
+                </p>
+                <a href="https://github.com/niicholai/Price-Table-Demo"
+                  ><button type="button" class="btn btn-info">GitHub</button></a
+                >
+                <a href="https://price-table-demo.onrender.com/"
+                  ><button type="button" class="btn btn-info">
+                    Live Demo
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/dice-game-preview.PNG"
+                class="card-img-top"
+                alt="dice game"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dice Game</h5>
+                <p class="card-text">
+                  This is a simple dice game I created to test what I had
+                  learned with Javascript and DOM manipulation. It felt great to
+                  finally put Javascript to use.
+                </p>
+                <a href="https://github.com/niicholai/Dice-Game"
+                  ><button type="button" class="btn btn-info">GitHub</button></a
+                >
+                <a href="https://dice-game-mx45.onrender.com/"
+                  ><button type="button" class="btn btn-info">
+                    Live Demo
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/bmi-calc-preview.PNG"
+                class="card-img-top"
+                alt="BMI calculator"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BMI Calculator</h5>
+                <p class="card-text">
+                  A simple BMI calculator, one of my first projects, and my
+                  first to use Javascript working with CSS and HTML. As always
+                  consult your physician about your health.
+                </p>
+                <a href="https://github.com/niicholai/BMI-Calc"
+                  ><button type="button" class="btn btn-info">GitHub</button></a
+                >
+                <a href="https://bmi-calc.onrender.com/"
+                  ><button type="button" class="btn btn-info">
+                    Live Demo
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
