@@ -12,7 +12,6 @@ function darkLight() {
     fsBgColor.className = "bg-info";
     sswBgColor.className = "bg-dark";
     cmBgColor.className = "bg-info";
-    console.log(themeButton.innerText);
   } else if (themeButton.innerText === "Light Mode") {
     themeButton.innerText = "Dark Mode";
     themeButton.className = "btn btn-dark";
@@ -20,7 +19,6 @@ function darkLight() {
     fsBgColor.className = "bg-light";
     sswBgColor.className = "bg-info";
     cmBgColor.className = "bg-light";
-    console.log(themeButton.innerText);
   }
 }
 
