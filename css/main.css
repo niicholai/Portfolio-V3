@@ -36,10 +36,6 @@ body {
   padding: 8em 0 4em 0;
 }
 
-#ss-top-h1 {
-  padding-bottom: 1.4em;
-}
-
 #contact-me {
   display: flex;
   flex-direction: column;
@@ -60,7 +56,7 @@ body {
   padding: 0 0 6em 0;
 }
 
-.what-i-do {
+.what-i-do-light {
   border: 0.2em;
   border-style: dashed;
   border-color: #5bc0de;
@@ -68,7 +64,15 @@ body {
   width: 30em;
 }
 
-.who-i-am {
+.what-i-do-dark {
+  border: 0.2em;
+  border-style: dashed;
+  border-color: #343a40;
+  border-radius: 1.5em;
+  width: 30em;
+}
+
+.who-i-am-light {
   border: 0.2em;
   border-style: dashed;
   border-color: #5bc0de;
@@ -76,18 +80,44 @@ body {
   width: 30em;
 }
 
-.what-i-know {
+.who-i-am-dark {
+  border: 0.2em;
+  border-style: dashed;
+  border-color: #343a40;
+  border-radius: 1.5em;
+  width: 30em;
+}
+
+.what-i-know-light {
   border: 0.2em;
   border-style: dashed;
   border-color: #5bc0de;
   border-radius: 1.5em;
   width: 30em;
 }
-.about-me-heading {
+
+.what-i-know-dark {
+  border: 0.2em;
+  border-style: dashed;
+  border-color: #343a40;
+  border-radius: 1.5em;
+  width: 30em;
+}
+
+.about-me-heading-light {
   display: flex;
   justify-content: center;
   font-size: 1.5em;
   color: #5bc0de;
+  text-shadow: 1px 1px #000000;
+  padding-top: 1em;
+}
+
+.about-me-heading-dark {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #343a40;
   text-shadow: 1px 1px #000000;
   padding-top: 1em;
 }
@@ -100,4 +130,13 @@ body {
   font-size: 1.2em;
   line-height: 1.8em;
   list-style-type: circle;
+}
+
+.ss-top-h1-light {
+  padding-bottom: 1.4em;
+}
+
+.ss-top-h1-light {
+  padding-bottom: 1.4em;
+  color: #5bc0de;
 }
